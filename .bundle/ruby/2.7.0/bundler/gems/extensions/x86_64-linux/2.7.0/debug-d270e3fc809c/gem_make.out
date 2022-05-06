@@ -1,0 +1,16 @@
+current directory: /home/runner/rubydebug-demo/.bundle/ruby/2.7.0/bundler/gems/debug-d270e3fc809c/ext/debug
+/nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/bin/ruby -I /nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220506-194-1xfetsb.rb extconf.rb
+creating Makefile
+
+current directory: /home/runner/rubydebug-demo/.bundle/ruby/2.7.0/bundler/gems/debug-d270e3fc809c/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/runner/rubydebug-demo/.bundle/ruby/2.7.0/bundler/gems/debug-d270e3fc809c/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/runner/rubydebug-demo/.bundle/ruby/2.7.0/bundler/gems/debug-d270e3fc809c/ext/debug
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 debug.so ./.gem.20220506-194-1hpojbv/debug
