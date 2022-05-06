@@ -19,6 +19,10 @@ class Foo
 
   def forth_call(num1, num2)
     debugger
+    plus(num1, num2) + 10
+  end
+
+  def plus(num1, num2)
     num1 + num2
   end
 end
